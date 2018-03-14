@@ -1,4 +1,5 @@
-(ns die-cruncher.core)
+(ns die-cruncher.core
+  (:gen-class))
 
 (defn get-scenario-unhelpfulness-odds
   [numbers-needed unique-numbers remaining-rolls]
