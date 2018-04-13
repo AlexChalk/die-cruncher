@@ -18,7 +18,7 @@
           unique-numbers)))))
     
 (defn get-odds
-  "Returns odds of rolling n numbers with an n-sided die in n rolls"
+  "Returns odds of rolling n numbers with an m-sided die in l rolls"
   [numbers-needed unique-numbers remaining-rolls]
   (if (> numbers-needed unique-numbers)
     0
