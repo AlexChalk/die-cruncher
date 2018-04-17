@@ -4,7 +4,7 @@ An algorithm to calculate the odds of having *N* unique numbers after rolling an
 
 ### Process
 
-My solution is recursive. It calculates the odds of a new number being rolled in a given rolling 'round', vs the odds of a new number not being rolled. It then calls itself to calculate the odds in each subsequent round, and so on.
+My solution is recursive. It calculates the odds of a new number being rolled in a given rolling 'round', vs the odds of a new number not being rolled. It then calls itself to calculate the odds in each possible subsequent round, and so on.
 
 Eventually it arrives at a point where it can calculate the odds of achieving *N* unique numbers after this and any future roll. This occurs in one of the three following scenarios:
 
